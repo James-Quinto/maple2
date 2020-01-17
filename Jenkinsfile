@@ -25,6 +25,11 @@ pipeline {
 						sh 'uname -a'
 					}
 				}
+				stage("Amazon Linux") {
+					steps {
+						sh 'uname -a'
+					}
+				}
 			}
 		}
 		
@@ -45,6 +50,11 @@ pipeline {
 						sh 'uname -a'
 					}
 				}
+				stage("Amazon Linux") {
+					steps {
+						sh 'uname -a'
+					}
+				}
 			}
 		}
 		
@@ -61,6 +71,11 @@ pipeline {
 					}
 				}
 				stage("Windows") {
+					steps {
+						sh 'uname -a'
+					}
+				}
+				stage("Amazon Linux") {
 					steps {
 						sh 'uname -a'
 					}
